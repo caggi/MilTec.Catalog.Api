@@ -37,7 +37,7 @@ namespace Infra.Repositories
             {
                 return SearchQueryInPropertyValue(searchQuery, book.Name)
                     || SearchQueryInPropertyValue(searchQuery, book.Price)
-                    || SearchQueryInPropertyValue(searchQuery, (object)book.Specifications.OriginallyPublished)
+                    || SearchQueryInPropertyValue(searchQuery, book.Specifications.OriginallyPublished)
                     || SearchQueryInPropertyValue(searchQuery, book.Specifications.Author)
                     || SearchQueryInPropertyValue(searchQuery, book.Specifications.PageCount)
                     || SearchQueryInPropertyValue(searchQuery, book.Specifications.Illustrator)
