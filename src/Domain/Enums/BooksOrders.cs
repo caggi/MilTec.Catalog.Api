@@ -8,11 +8,11 @@
         /// <summary>
         /// Ordernar lista de livros do maior preço para o menor.
         /// </summary>
-        ByPriceDesc,
+        ByPriceDesc = 1,
 
         /// <summary>
         /// Ordernar lista de livros do menor preço para o maior.
         /// </summary>
-        ByPriceAsc
+        ByPriceAsc = 2
     }
 }
